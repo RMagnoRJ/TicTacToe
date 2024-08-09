@@ -41,7 +41,7 @@ public class Program_TicTacToe {
         // MENU BEGIN
         while (menu = true){
 
-            /* = OPENGAME > INTRO
+            // = OPENGAME > INTRO
             System.out.println("\n============================================");
             System.out.println( "       #  #  #  TIC TAC TOE   #   #  #      ");
             System.out.println( "============================================\n\n");
@@ -56,7 +56,7 @@ public class Program_TicTacToe {
                                   "          ----------------------- \n"+
                                   "                 |       |   X    \n"+
                                   "                                  \n");
-                                  */
+                                  
             System.out.println("\n\n============================================");
             System.out.print(   "|                   MENU                   |\n"+
                                 "============================================\n\n"+
@@ -75,7 +75,7 @@ public class Program_TicTacToe {
             // GAME INTRO
             if (op  == 1){
 
-                /* GAMEINTRO > INTRO
+                // GAMEINTRO > INTRO
                 System.out.println("\n\n\n============================================");
             System.out.println( "       #  #  #  TIC TAC TOE   #  #  #       ");
             System.out.println( "============================================\n\n\n");
@@ -128,7 +128,7 @@ public class Program_TicTacToe {
                                  "      3          |       |        \n"+
                                  "                                  \n");
             System.out.println("\n============================================\n");
-             */
+            
             System.out.print("Pressione qualquer tecla para continuar...\n"+
             "> ");
             wait = inn.nextLine();
